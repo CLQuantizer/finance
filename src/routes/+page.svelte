@@ -7,6 +7,6 @@
   </script>
 <div class="justify-center flex flex-col items-center">
     <div class="w-1/2 text-center mt-12">
-      <div>A blog about finance</div>
+      <div>A blog about Financial Products x Regulations</div>
     </div>
 </div>
