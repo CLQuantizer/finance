@@ -8,7 +8,7 @@
     import {pop, popStore} from "./store";
 
     import * as Alert from "$lib/components/ui/alert";
-    import {COMING_SOON} from "./common";
+    import {COMING_SOON, PRODUCTS} from "./common";
 
     $:url = "/"+$page.url.toString().split("/").pop();
 
@@ -29,7 +29,7 @@
             <Menubar.Menu>
                 <Menubar.Trigger>Products</Menubar.Trigger>
                 <DropdownMenu.Content class="w-56">
-                    <DropdownMenu.Item on:click={()=>goto("/swap")}>swap</DropdownMenu.Item>
+                    <DropdownMenu.Item on:click={()=>goto(PRODUCTS+"/swap")}>swap</DropdownMenu.Item>
                 </DropdownMenu.Content>
             </Menubar.Menu>
         </Menubar.Root>
