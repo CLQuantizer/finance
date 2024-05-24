@@ -35,7 +35,7 @@
         </div>
         <Light>
             TechCo: A fast-growing tech company with a $50 million floating-rate loan tied to
-            <a class="underline" href="https://www.investopedia.com/terms/l/libor.asp">LIBOR</a>
+            <a class="underline" target="_blank" href="https://www.investopedia.com/terms/l/libor.asp">LIBOR</a>
             + 2%. They are optimistic about their future and expect interest rates to rise.
         </Light>
         <Light>
