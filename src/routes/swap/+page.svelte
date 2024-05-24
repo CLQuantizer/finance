@@ -34,7 +34,9 @@
             Imagine two companies:
         </div>
         <Light>
-            TechCo: A fast-growing tech company with a $50 million floating-rate loan tied to LIBOR + 2%. They are optimistic about their future and expect interest rates to rise.
+            TechCo: A fast-growing tech company with a $50 million floating-rate loan tied to
+            <a class="underline" href="https://www.investopedia.com/terms/l/libor.asp">LIBOR</a>
+            + 2%. They are optimistic about their future and expect interest rates to rise.
         </Light>
         <Light>
             StableCo: A mature manufacturing company with a $50 million fixed-rate loan at 5%. They are content with their stable interest rate but are open to exploring options to potentially reduce their interest expense.
