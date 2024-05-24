@@ -5,15 +5,8 @@
     import {goto} from "$app/navigation";
 
   </script>
-
-  <Menubar.Root class="flex justify-center">
-    <Menubar.Menu>
-      <Menubar.Trigger on:click={()=> goto("/swap")}>Swap</Menubar.Trigger>
-    </Menubar.Menu>
-    <Menubar.Menu>
-      <Menubar.Trigger>Option</Menubar.Trigger>
-    </Menubar.Menu>
-    <Menubar.Menu>
-      <Menubar.Trigger>Perp</Menubar.Trigger>
-    </Menubar.Menu>
-  </Menubar.Root>
+<div class="justify-center flex flex-col items-center">
+    <div class="w-1/2 text-center mt-12">
+      <div>A blog about finance</div>
+    </div>
+</div>
