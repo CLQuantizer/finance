@@ -15,7 +15,7 @@
 </script>
 
 <div class="p-2 overflow-x-hidden overflow-y-scroll">
-    <div class="flex justify-center">
+    <div class="flex justify-center mb-2">
         <Menubar.Root class="flex justify-center">
             <Menubar.Menu>
                 <Menubar.Trigger on:click={()=> goto("/")}>Home</Menubar.Trigger>

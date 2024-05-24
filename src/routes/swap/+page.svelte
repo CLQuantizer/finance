@@ -29,7 +29,7 @@
 </Lg>
 
 <div class="flex-col flex gap-2">
-    <div class="pl-6 flex flex-col gap-2">
+    <div class="lg:pl-6 flex flex-col gap-2">
         <div>
             Imagine two companies:
         </div>
@@ -71,7 +71,7 @@
 </Lg>
 
 <div class="flex-col flex gap-2">
-    <div class="pl-6 flex flex-col gap-2">
+    <div class="lg:pl-6 flex flex-col gap-2">
         <Md>
             The Challenge for Pension Funds
         </Md>
