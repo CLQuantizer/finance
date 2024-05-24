@@ -10,7 +10,7 @@
     import * as Alert from "$lib/components/ui/alert";
     import {COMING_SOON, PRODUCTS} from "./common";
 
-    $:url = "/"+$page.url.toString();
+    $:url = $page.route.id;
 
 </script>
 
