@@ -24,7 +24,10 @@
                 <Menubar.Trigger on:click={()=> goto("/swap")}>Swap</Menubar.Trigger>
             </Menubar.Menu>
             <Menubar.Menu>
-                <Menubar.Trigger on:click={()=>pop("Options coming soon", COMING_SOON)}>Option</Menubar.Trigger>
+                <Menubar.Trigger>Regulations</Menubar.Trigger>
+                <DropdownMenu.Content class="w-56">
+                    <DropdownMenu.Item on:click={()=>pop("CET coming soon", COMING_SOON)}>CET</DropdownMenu.Item>
+                </DropdownMenu.Content>
             </Menubar.Menu>
             <Menubar.Menu>
                 <Menubar.Trigger on:click={()=>pop("Futures coming soon", COMING_SOON)}>Future</Menubar.Trigger>
