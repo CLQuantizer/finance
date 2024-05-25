@@ -8,7 +8,7 @@
     import {pop, popStore} from "./store";
 
     import * as Alert from "$lib/components/ui/alert";
-    import {COMING_SOON, PRODUCTS} from "./common";
+    import {COMING_SOON, PRODUCTS, TECH} from "./common";
 
     $:url = $page.route.id;
 
@@ -32,13 +32,19 @@
                     <DropdownMenu.Item on:click={()=>goto(PRODUCTS+"/swap")}>swap</DropdownMenu.Item>
                 </DropdownMenu.Content>
             </Menubar.Menu>
+            <Menubar.Menu>
+                <Menubar.Trigger>Tech</Menubar.Trigger>
+                <DropdownMenu.Content class="w-56">
+                    <DropdownMenu.Item on:click={()=>goto(TECH+"/fix")}>FIX</DropdownMenu.Item>
+                </DropdownMenu.Content>
+            </Menubar.Menu>
         </Menubar.Root>
     </div>
     <slot></slot>
     <div class="flex justify-center mt-12 mb-24">
         <Menubar.Root class="flex justify-center">
             <Menubar.Menu>
-                <Menubar.Trigger on:click={()=> goto(url)}>To Top</Menubar.Trigger>
+                <Menubar.Trigger on:click={()=> {if (!url) {return} goto(url);}}>To Top</Menubar.Trigger>
             </Menubar.Menu>
         </Menubar.Root>
     </div>
